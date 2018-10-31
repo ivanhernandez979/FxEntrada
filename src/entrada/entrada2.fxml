@@ -4,7 +4,6 @@
 <?import com.jfoenix.controls.JFXPasswordField?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -13,7 +12,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="348.0" prefWidth="338.0" style="-fx-background-color: ff352c;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="348.0" prefWidth="338.0" style="-fx-background-color: white;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <GridPane layoutX="3.0" prefHeight="348.0" prefWidth="338.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <columnConstraints>
@@ -22,40 +21,45 @@
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="71.0" />
         </columnConstraints>
         <rowConstraints>
-          <RowConstraints minHeight="10.0" prefHeight="18.0" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="297.0" minHeight="10.0" prefHeight="297.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="48.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="297.0" minHeight="10.0" prefHeight="277.0" vgrow="SOMETIMES" />
           <RowConstraints minHeight="10.0" prefHeight="13.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
             <VBox alignment="CENTER" prefHeight="298.0" prefWidth="198.0" spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <children>
-                  <ImageView fitHeight="74.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../Desktop/descarga.png" />
-                     </image>
-                  </ImageView>
-                  <Label text="Welcome to the app">
-                     <VBox.margin>
-                        <Insets top="20.0" />
-                     </VBox.margin>
-                  </Label>
-                  <JFXTextField focusColor="#fffbaa" labelFloat="true" maxWidth="180.0" promptText="UserName">
+                  <JFXTextField focusColor="#ef4f47" labelFloat="true" maxWidth="180.0" promptText="UserName">
                      <VBox.margin>
                         <Insets top="20.0" />
                      </VBox.margin>
                   </JFXTextField>
-                  <JFXPasswordField focusColor="#fffbaa" labelFloat="true" maxWidth="180.0" promptText="Password">
+                  <JFXTextField focusColor="#ef4f47" labelFloat="true" layoutX="20.0" layoutY="84.0" maxWidth="180.0" promptText="Mail">
                      <VBox.margin>
-                        <Insets bottom="20.0" top="20.0" />
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </JFXTextField>
+                  <JFXPasswordField focusColor="#ef4f47" labelFloat="true" maxWidth="180.0" promptText="Password">
+                     <VBox.margin>
+                        <Insets top="20.0" />
                      </VBox.margin>
                   </JFXPasswordField>
-                  <JFXButton buttonType="RAISED" prefHeight="32.0" prefWidth="188.0" styleClass="mybutton" text="Get Started">
+                  <JFXPasswordField focusColor="#ef4f47" labelFloat="true" layoutX="20.0" layoutY="160.0" maxWidth="180.0" promptText="Confirm Password">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </JFXPasswordField>
+                  <JFXButton buttonType="RAISED" prefHeight="32.0" prefWidth="188.0" styleClass="mybutton" text="Registrar">
                      <VBox.margin>
                         <Insets top="23.0" />
                      </VBox.margin>
                   </JFXButton>
                </children>
             </VBox>
+            <ImageView fitHeight="75.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@descarga.png" />
+               </image>
+            </ImageView>
          </children>
       </GridPane>
    </children>
