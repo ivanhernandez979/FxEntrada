@@ -28,22 +28,22 @@
          <children>
             <VBox alignment="CENTER" prefHeight="298.0" prefWidth="198.0" spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <children>
-                  <JFXTextField focusColor="#ef4f47" labelFloat="true" maxWidth="180.0" promptText="UserName">
+                  <JFXTextField focusColor="#ef4f47" labelFloat="true" maxWidth="180.0" promptText="UserName" unFocusColor="#ef4f47">
                      <VBox.margin>
                         <Insets top="20.0" />
                      </VBox.margin>
                   </JFXTextField>
-                  <JFXTextField focusColor="#ef4f47" labelFloat="true" layoutX="20.0" layoutY="84.0" maxWidth="180.0" promptText="Mail">
+                  <JFXTextField focusColor="#ef4f47" labelFloat="true" layoutX="20.0" layoutY="84.0" maxWidth="180.0" promptText="Mail" unFocusColor="#ef4f47">
                      <VBox.margin>
                         <Insets top="20.0" />
                      </VBox.margin>
                   </JFXTextField>
-                  <JFXPasswordField focusColor="#ef4f47" labelFloat="true" maxWidth="180.0" promptText="Password">
+                  <JFXPasswordField focusColor="#ef4f47" labelFloat="true" maxWidth="180.0" promptText="Password" unFocusColor="#ef4f47">
                      <VBox.margin>
                         <Insets top="20.0" />
                      </VBox.margin>
                   </JFXPasswordField>
-                  <JFXPasswordField focusColor="#ef4f47" labelFloat="true" layoutX="20.0" layoutY="160.0" maxWidth="180.0" promptText="Confirm Password">
+                  <JFXPasswordField focusColor="#ef4f47" labelFloat="true" layoutX="20.0" layoutY="160.0" maxWidth="180.0" promptText="Confirm Password" unFocusColor="#ef4f47">
                      <VBox.margin>
                         <Insets top="20.0" />
                      </VBox.margin>
